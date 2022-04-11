@@ -8,7 +8,7 @@ Com o objetivo de consumir a API externa openWeather para obter informações cl
 `http://localhost:3000/tempo/nomeDaCidade`
 
 Pode ser utilizado o arquivo `api.http` para testar o endpoint
-## Instalar dependencias
+## Instalar modulos
 
 ```bash
 $ yarn install
@@ -26,5 +26,5 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
-## Modulos utilizadas
+## Modulos utilizados
 `@nestjs/axios`
