@@ -1,11 +1,11 @@
-### tempoCidade - 1
+### tempoCidade - Curitiba
 GET http://localhost:3000/tempo/Curitiba
 Content-Type: application/json
 
-### tempoCidade - 2
+### tempoCidade - SP
 GET http://localhost:3000/tempo/Sao Paulo
 Content-Type: application/json
 
-### tempoErro
-GET http://localhost:3000/tempo/asd
+### tempoErro - Cidade não encontrada
+GET http://localhost:3000/tempo/CidadeNaoExiste123456789
 Content-Type: application/json
